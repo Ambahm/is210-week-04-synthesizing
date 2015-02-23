@@ -36,7 +36,7 @@ if PREQUALIFY == 'y':
             INTR_RATE = 4.66                                       # 2
 
     if PRINCIPAL >= 1000000:
-        if 1 >= LOAN_TIME <= 15:                                  # 3
+        if 1 >= LOAN_TIME <= 15:
             INTR_RATE = 2.05
 
         elif 16 >= LOAN_TIME <= 20:
